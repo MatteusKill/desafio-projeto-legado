@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    display: flex;
+}
+
+.container-box-login{
+    width: 100%;
+    height: 100%;
+}
+
+.container-lado-esq{
+    width: 50%;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+.seja-vindo{
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.titulo-dir{
+    color: black;
+}
+
+.lado-dir-login{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: aliceblue;
+}
+
+.btn-entrar-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
