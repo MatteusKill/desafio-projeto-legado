@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    container_name: php_desafio_senac
+    ports:
+      - "8082:80"
+    volumes:
+      - ./:/var/www/html
+    env_file:
+      - .env
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
